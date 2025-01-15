@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "chat",
+        "1": "artificial intelligence (AI)",
+        "2": "technical",
+        "3": "productivity",
+        "4": "compliance"
+    },
+    "description": "Gemini API provides powerful and dynamic content generation capabilities using natural language processing. With this API, you can easily generate human-like responses and interact with a conversational model to answer questions, provide suggestions, and much more. Whether you need automated customer support, creative writing, or data-driven insights, the Gemini API offers seamless integration for creating intelligent dialogue and enhancing user engagement. It supports a range of conversational contexts and allows for real-time, context-aware interactions, making it an ideal tool for building interactive and intuitive user experiences in your app.\n\n🔗Demo Link: \n🔗Editor Link:\n\nOur team is available to solve any problems or questions you may have, please open a thread on our support forum: https://forum.thechakor.com/t/plugin-issues",
+    "image": "//meta-q.cdn.bubble.io/f1736943323158x805218351075756000/gemini.jpg",
+    "license": "commercial",
+    "name": "Gemini API",
+    "plugin_instructions": "- Generate context-based text by analyzing media files such as images, audio, and documents.\n- Create dynamic content using user-provided text for conversational or creative outputs.\n- Enhance outputs by combining media (e.g., images or audio) with additional text prompts.\n- Build and edit JSON structures, supporting complex nesting, data conversions, and randomization.\n- Integrate seamlessly with Bubble workflows to automate content generation and streamline functionality.\nSupported MIME types for generating content from files and text:\n- Documents: application/pdf\n- Audio: audio/mpeg, audio/mp3, audio/wav\n- Images: image/png, image/jpeg, image/webp\n- Text: text/plain\n- Videos: video/mov, video/mpeg, video/mp4, video/mpg, video/avi, video/wmv, video/mpegps, video/flv\n\nFor detailed guidance, visit https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/inference",
+    "sa_node_version": 18
+}

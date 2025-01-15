@@ -1,0 +1,523 @@
+{
+    "auth": "private_key_url",
+    "calls": {
+        "AAD": {
+            "doc_link": "https://ai.google.dev/api/models#models_get-SHELL",
+            "initialized": true,
+            "method": "get",
+            "name": "Get Model (Data)",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.AAD",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAD\":{\"caption\":\"Get Model (Data)\",\"fields\":{\"_p_name\":{\"ret_btype\":\"text\",\"caption\":\"name\",\"sample_value\":\"models/gemini-1.5-flash\",\"path\":[\"name\"]},\"_p_version\":{\"ret_btype\":\"text\",\"caption\":\"version\",\"sample_value\":\"001\",\"path\":[\"version\"]},\"_p_displayName\":{\"ret_btype\":\"text\",\"caption\":\"displayName\",\"sample_value\":\"Gemini 1.5 Flash\",\"path\":[\"displayName\"]},\"_p_description\":{\"ret_btype\":\"text\",\"caption\":\"description\",\"sample_value\":\"Alias that points to the most recent stable version of Gemini 1.5 Flash, our fast and versatile multimodal model for scaling across diverse tasks.\",\"path\":[\"description\"]},\"_p_inputTokenLimit\":{\"ret_btype\":\"number\",\"caption\":\"inputTokenLimit\",\"sample_value\":1000000,\"path\":[\"inputTokenLimit\"]},\"_p_outputTokenLimit\":{\"ret_btype\":\"number\",\"caption\":\"outputTokenLimit\",\"sample_value\":8192,\"path\":[\"outputTokenLimit\"]},\"_p_supportedGenerationMethods\":{\"ret_btype\":\"list.text\",\"caption\":\"supportedGenerationMethods\",\"sample_value\":\"generateContent\",\"path\":[\"supportedGenerationMethods\"]},\"_p_temperature\":{\"ret_btype\":\"number\",\"caption\":\"temperature\",\"sample_value\":1,\"path\":[\"temperature\"]},\"_p_topP\":{\"ret_btype\":\"number\",\"caption\":\"topP\",\"sample_value\":0.95,\"path\":[\"topP\"]},\"_p_topK\":{\"ret_btype\":\"number\",\"caption\":\"topK\",\"sample_value\":40,\"path\":[\"topK\"]},\"_p_maxTemperature\":{\"ret_btype\":\"number\",\"caption\":\"maxTemperature\",\"sample_value\":2,\"path\":[\"maxTemperature\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/models/[model_name]",
+            "url_params": {
+                "AAH": {
+                    "key": "model_name",
+                    "private": true,
+                    "value": "gemini-1.5-flash"
+                }
+            }
+        },
+        "AAM": {
+            "doc_link": "https://ai.google.dev/api/models#models_list-SHELL",
+            "initialized": true,
+            "method": "get",
+            "name": "Models List (Data)",
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.AAM",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAM\":{\"caption\":\"Models List (Data)\",\"fields\":{\"_p_models\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.AAM.models\",\"caption\":\"models\",\"path\":[\"models\"]}}},\"plugin_api.AAM.models\":{\"caption\":\"Models List (Data) model\",\"fields\":{\"_p_name\":{\"ret_btype\":\"text\",\"caption\":\"name\",\"sample_value\":\"models/chat-bison-001\",\"path\":[\"name\"]},\"_p_version\":{\"ret_btype\":\"text\",\"caption\":\"version\",\"sample_value\":\"001\",\"path\":[\"version\"]},\"_p_displayName\":{\"ret_btype\":\"text\",\"caption\":\"displayName\",\"sample_value\":\"PaLM 2 Chat (Legacy)\",\"path\":[\"displayName\"]},\"_p_description\":{\"ret_btype\":\"text\",\"caption\":\"description\",\"sample_value\":\"A legacy text-only model optimized for chat conversations\",\"path\":[\"description\"]},\"_p_inputTokenLimit\":{\"ret_btype\":\"number\",\"caption\":\"inputTokenLimit\",\"sample_value\":4096,\"path\":[\"inputTokenLimit\"]},\"_p_outputTokenLimit\":{\"ret_btype\":\"number\",\"caption\":\"outputTokenLimit\",\"sample_value\":1024,\"path\":[\"outputTokenLimit\"]},\"_p_supportedGenerationMethods\":{\"ret_btype\":\"list.text\",\"caption\":\"supportedGenerationMethods\",\"sample_value\":\"generateMessage\",\"path\":[\"supportedGenerationMethods\"]},\"_p_temperature\":{\"ret_btype\":\"number\",\"caption\":\"temperature\",\"sample_value\":0.25,\"path\":[\"temperature\"]},\"_p_topP\":{\"ret_btype\":\"number\",\"caption\":\"topP\",\"sample_value\":0.95,\"path\":[\"topP\"]},\"_p_topK\":{\"ret_btype\":\"number\",\"caption\":\"topK\",\"sample_value\":40,\"path\":[\"topK\"]},\"_p_maxTemperature\":{\"ret_btype\":\"number\",\"caption\":\"maxTemperature\",\"sample_value\":2,\"path\":[\"maxTemperature\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/models"
+        },
+        "AAW": {
+            "0": "A",
+            "1": "A",
+            "2": "V",
+            "doc_link": "https://ai.google.dev/api/models#models_get-SHELL",
+            "initialized": true,
+            "method": "get",
+            "name": "Get Model (Action)",
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.AAW",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAW\":{\"caption\":\"Get Model (Action)\",\"fields\":{\"_p_name\":{\"ret_btype\":\"text\",\"caption\":\"name\",\"sample_value\":\"models/gemini-1.5-flash\",\"path\":[\"name\"]},\"_p_version\":{\"ret_btype\":\"text\",\"caption\":\"version\",\"sample_value\":\"001\",\"path\":[\"version\"]},\"_p_displayName\":{\"ret_btype\":\"text\",\"caption\":\"displayName\",\"sample_value\":\"Gemini 1.5 Flash\",\"path\":[\"displayName\"]},\"_p_description\":{\"ret_btype\":\"text\",\"caption\":\"description\",\"sample_value\":\"Alias that points to the most recent stable version of Gemini 1.5 Flash, our fast and versatile multimodal model for scaling across diverse tasks.\",\"path\":[\"description\"]},\"_p_inputTokenLimit\":{\"ret_btype\":\"number\",\"caption\":\"inputTokenLimit\",\"sample_value\":1000000,\"path\":[\"inputTokenLimit\"]},\"_p_outputTokenLimit\":{\"ret_btype\":\"number\",\"caption\":\"outputTokenLimit\",\"sample_value\":8192,\"path\":[\"outputTokenLimit\"]},\"_p_supportedGenerationMethods\":{\"ret_btype\":\"list.text\",\"caption\":\"supportedGenerationMethods\",\"sample_value\":\"generateContent\",\"path\":[\"supportedGenerationMethods\"]},\"_p_temperature\":{\"ret_btype\":\"number\",\"caption\":\"temperature\",\"sample_value\":1,\"path\":[\"temperature\"]},\"_p_topP\":{\"ret_btype\":\"number\",\"caption\":\"topP\",\"sample_value\":0.95,\"path\":[\"topP\"]},\"_p_topK\":{\"ret_btype\":\"number\",\"caption\":\"topK\",\"sample_value\":40,\"path\":[\"topK\"]},\"_p_maxTemperature\":{\"ret_btype\":\"number\",\"caption\":\"maxTemperature\",\"sample_value\":2,\"path\":[\"maxTemperature\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/models/[model_name]",
+            "url_params": {
+                "AAH": {
+                    "key": "model_name",
+                    "private": true,
+                    "value": "gemini-1.5-flash"
+                }
+            }
+        },
+        "AAY": {
+            "0": "A",
+            "1": "A",
+            "2": "X",
+            "doc_link": "https://ai.google.dev/api/models#models_list-SHELL",
+            "initialized": true,
+            "method": "get",
+            "name": "Models List (Action)",
+            "publish_as": "action",
+            "rank": 3,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.AAY",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAY\":{\"caption\":\"Models List (Action)\",\"fields\":{\"_p_models\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.AAY.models\",\"caption\":\"models\",\"path\":[\"models\"]}}},\"plugin_api.AAY.models\":{\"caption\":\"Models List (Action) model\",\"fields\":{\"_p_name\":{\"ret_btype\":\"text\",\"caption\":\"name\",\"sample_value\":\"models/chat-bison-001\",\"path\":[\"name\"]},\"_p_version\":{\"ret_btype\":\"text\",\"caption\":\"version\",\"sample_value\":\"001\",\"path\":[\"version\"]},\"_p_displayName\":{\"ret_btype\":\"text\",\"caption\":\"displayName\",\"sample_value\":\"PaLM 2 Chat (Legacy)\",\"path\":[\"displayName\"]},\"_p_description\":{\"ret_btype\":\"text\",\"caption\":\"description\",\"sample_value\":\"A legacy text-only model optimized for chat conversations\",\"path\":[\"description\"]},\"_p_inputTokenLimit\":{\"ret_btype\":\"number\",\"caption\":\"inputTokenLimit\",\"sample_value\":4096,\"path\":[\"inputTokenLimit\"]},\"_p_outputTokenLimit\":{\"ret_btype\":\"number\",\"caption\":\"outputTokenLimit\",\"sample_value\":1024,\"path\":[\"outputTokenLimit\"]},\"_p_supportedGenerationMethods\":{\"ret_btype\":\"list.text\",\"caption\":\"supportedGenerationMethods\",\"sample_value\":\"generateMessage\",\"path\":[\"supportedGenerationMethods\"]},\"_p_temperature\":{\"ret_btype\":\"number\",\"caption\":\"temperature\",\"sample_value\":0.25,\"path\":[\"temperature\"]},\"_p_topP\":{\"ret_btype\":\"number\",\"caption\":\"topP\",\"sample_value\":0.95,\"path\":[\"topP\"]},\"_p_topK\":{\"ret_btype\":\"number\",\"caption\":\"topK\",\"sample_value\":40,\"path\":[\"topK\"]},\"_p_maxTemperature\":{\"ret_btype\":\"number\",\"caption\":\"maxTemperature\",\"sample_value\":2,\"path\":[\"maxTemperature\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/models"
+        },
+        "ABM": {
+            "doc_link": "https://ai.google.dev/api/files#method:-files.list",
+            "initialized": true,
+            "method": "get",
+            "name": "List Files (Data)",
+            "publish_as": "data",
+            "rank": 4,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.ABM",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABM\":{\"caption\":\"List Files (Data)\",\"fields\":{\"_p_files\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ABM.files\",\"caption\":\"files\",\"path\":[\"files\"]},\"_p_nextPageToken\":{\"ret_btype\":\"text\",\"caption\":\"nextPageToken\",\"sample_value\":\"ciEKD4IBDAjXtJS8BhDQ0IzQAgoOQgxzbjg0MzJ6NXZsdmY\",\"path\":[\"nextPageToken\"]}}},\"plugin_api.ABM.files\":{\"caption\":\"List Files (Data) file\",\"fields\":{\"_p_name\":{\"ret_btype\":\"text\",\"caption\":\"name\",\"sample_value\":\"files/bt5l1rtl5xwo\",\"path\":[\"name\"]},\"_p_mimeType\":{\"ret_btype\":\"text\",\"caption\":\"mimeType\",\"sample_value\":\"application/octet-stream\",\"path\":[\"mimeType\"]},\"_p_sizeBytes\":{\"ret_btype\":\"text\",\"caption\":\"sizeBytes\",\"sample_value\":\"39\",\"path\":[\"sizeBytes\"]},\"_p_createTime\":{\"ret_btype\":\"text\",\"caption\":\"createTime\",\"sample_value\":\"2025-01-13T13:57:36.225379Z\",\"path\":[\"createTime\"]},\"_p_updateTime\":{\"ret_btype\":\"text\",\"caption\":\"updateTime\",\"sample_value\":\"2025-01-13T13:57:36.225379Z\",\"path\":[\"updateTime\"]},\"_p_expirationTime\":{\"ret_btype\":\"text\",\"caption\":\"expirationTime\",\"sample_value\":\"2025-01-15T13:57:36.194549575Z\",\"path\":[\"expirationTime\"]},\"_p_sha256Hash\":{\"ret_btype\":\"text\",\"caption\":\"sha256Hash\",\"sample_value\":\"YWFkZTAyY2UxM2VjZjRjNGU2NThiMzAwMmNmMGZmNmZmN2ViNjcxYjljZTJlMmI0NmU4N2FmNDEzYmZjZTk1MQ==\",\"path\":[\"sha256Hash\"]},\"_p_uri\":{\"ret_btype\":\"text\",\"caption\":\"uri\",\"sample_value\":\"https://generativelanguage.googleapis.com/v1beta/files/bt5l1rtl5xwo\",\"path\":[\"uri\"]},\"_p_state\":{\"ret_btype\":\"text\",\"caption\":\"state\",\"sample_value\":\"ACTIVE\",\"path\":[\"state\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/files"
+        },
+        "ABO": {
+            "0": "A",
+            "1": "B",
+            "2": "N",
+            "doc_link": "https://ai.google.dev/api/files#method:-files.list",
+            "initialized": true,
+            "method": "get",
+            "name": "List Files (Action)",
+            "publish_as": "action",
+            "rank": 5,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.ABO",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.ABO\":{\"caption\":\"List Files (Action)\",\"fields\":{\"_p_files\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ABO.files\",\"caption\":\"files\",\"path\":[\"files\"]},\"_p_nextPageToken\":{\"ret_btype\":\"text\",\"caption\":\"nextPageToken\",\"sample_value\":\"ciEKD4IBDAiyhp68BhCIz9nKAQoOQgxuYTc4OWlzZngwYnc\",\"path\":[\"nextPageToken\"]}}},\"plugin_api.ABO.files\":{\"caption\":\"List Files (Action) file\",\"fields\":{\"_p_name\":{\"ret_btype\":\"text\",\"caption\":\"name\",\"sample_value\":\"files/fr5tjddiw4xb\",\"path\":[\"name\"]},\"_p_mimeType\":{\"ret_btype\":\"text\",\"caption\":\"mimeType\",\"sample_value\":\"application/octet-stream\",\"path\":[\"mimeType\"]},\"_p_sizeBytes\":{\"ret_btype\":\"text\",\"caption\":\"sizeBytes\",\"sample_value\":\"39\",\"path\":[\"sizeBytes\"]},\"_p_createTime\":{\"ret_btype\":\"text\",\"caption\":\"createTime\",\"sample_value\":\"2025-01-15T11:35:50.881868Z\",\"path\":[\"createTime\"]},\"_p_updateTime\":{\"ret_btype\":\"text\",\"caption\":\"updateTime\",\"sample_value\":\"2025-01-15T11:35:50.881868Z\",\"path\":[\"updateTime\"]},\"_p_expirationTime\":{\"ret_btype\":\"text\",\"caption\":\"expirationTime\",\"sample_value\":\"2025-01-17T11:35:50.878174924Z\",\"path\":[\"expirationTime\"]},\"_p_sha256Hash\":{\"ret_btype\":\"text\",\"caption\":\"sha256Hash\",\"sample_value\":\"YWFkZTAyY2UxM2VjZjRjNGU2NThiMzAwMmNmMGZmNmZmN2ViNjcxYjljZTJlMmI0NmU4N2FmNDEzYmZjZTk1MQ==\",\"path\":[\"sha256Hash\"]},\"_p_uri\":{\"ret_btype\":\"text\",\"caption\":\"uri\",\"sample_value\":\"https://generativelanguage.googleapis.com/v1beta/files/fr5tjddiw4xb\",\"path\":[\"uri\"]},\"_p_state\":{\"ret_btype\":\"text\",\"caption\":\"state\",\"sample_value\":\"ACTIVE\",\"path\":[\"state\"]},\"_p_source\":{\"ret_btype\":\"text\",\"caption\":\"source\",\"sample_value\":\"UPLOADED\",\"path\":[\"source\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/files"
+        },
+        "ABP": {
+            "doc_link": "https://ai.google.dev/api/files#method:-files.get",
+            "initialized": true,
+            "method": "get",
+            "name": "Get File (Data)",
+            "publish_as": "data",
+            "rank": 6,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.ABP",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.ABP\":{\"caption\":\"Get File (Data)\",\"fields\":{\"_p_name\":{\"ret_btype\":\"text\",\"caption\":\"name\",\"sample_value\":\"files/uz3mmxytxqzb\",\"path\":[\"name\"]},\"_p_mimeType\":{\"ret_btype\":\"text\",\"caption\":\"mimeType\",\"sample_value\":\"application/octet-stream\",\"path\":[\"mimeType\"]},\"_p_sizeBytes\":{\"ret_btype\":\"text\",\"caption\":\"sizeBytes\",\"sample_value\":\"39\",\"path\":[\"sizeBytes\"]},\"_p_createTime\":{\"ret_btype\":\"text\",\"caption\":\"createTime\",\"sample_value\":\"2025-01-13T13:31:05.023776Z\",\"path\":[\"createTime\"]},\"_p_updateTime\":{\"ret_btype\":\"text\",\"caption\":\"updateTime\",\"sample_value\":\"2025-01-13T13:31:05.023776Z\",\"path\":[\"updateTime\"]},\"_p_expirationTime\":{\"ret_btype\":\"text\",\"caption\":\"expirationTime\",\"sample_value\":\"2025-01-15T13:31:04.989256549Z\",\"path\":[\"expirationTime\"]},\"_p_sha256Hash\":{\"ret_btype\":\"text\",\"caption\":\"sha256Hash\",\"sample_value\":\"YWFkZTAyY2UxM2VjZjRjNGU2NThiMzAwMmNmMGZmNmZmN2ViNjcxYjljZTJlMmI0NmU4N2FmNDEzYmZjZTk1MQ==\",\"path\":[\"sha256Hash\"]},\"_p_uri\":{\"ret_btype\":\"text\",\"caption\":\"uri\",\"sample_value\":\"https://generativelanguage.googleapis.com/v1beta/files/uz3mmxytxqzb\",\"path\":[\"uri\"]},\"_p_state\":{\"ret_btype\":\"text\",\"caption\":\"state\",\"sample_value\":\"ACTIVE\",\"path\":[\"state\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/[file_name]",
+            "url_params": {
+                "ABR": {
+                    "key": "file_name",
+                    "private": true,
+                    "value": "files/uz3mmxytxqzb"
+                }
+            }
+        },
+        "ABT": {
+            "0": "A",
+            "1": "B",
+            "2": "S",
+            "doc_link": "https://ai.google.dev/api/files#method:-files.get",
+            "initialized": true,
+            "method": "get",
+            "name": "Get File (Action)",
+            "publish_as": "action",
+            "rank": 7,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.ABT",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.ABT\":{\"caption\":\"Get File (Action)\",\"fields\":{\"_p_name\":{\"ret_btype\":\"text\",\"caption\":\"name\",\"sample_value\":\"files/tfmi5c18stls\",\"path\":[\"name\"]},\"_p_mimeType\":{\"ret_btype\":\"text\",\"caption\":\"mimeType\",\"sample_value\":\"application/octet-stream\",\"path\":[\"mimeType\"]},\"_p_createTime\":{\"ret_btype\":\"text\",\"caption\":\"createTime\",\"sample_value\":\"2025-01-13T10:24:34.002613Z\",\"path\":[\"createTime\"]},\"_p_updateTime\":{\"ret_btype\":\"text\",\"caption\":\"updateTime\",\"sample_value\":\"2025-01-13T10:24:34.002613Z\",\"path\":[\"updateTime\"]},\"_p_expirationTime\":{\"ret_btype\":\"text\",\"caption\":\"expirationTime\",\"sample_value\":\"2025-01-15T10:24:33.999733969Z\",\"path\":[\"expirationTime\"]},\"_p_sha256Hash\":{\"ret_btype\":\"text\",\"caption\":\"sha256Hash\",\"sample_value\":\"ZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NQ==\",\"path\":[\"sha256Hash\"]},\"_p_uri\":{\"ret_btype\":\"text\",\"caption\":\"uri\",\"sample_value\":\"https://generativelanguage.googleapis.com/v1beta/files/tfmi5c18stls\",\"path\":[\"uri\"]},\"_p_state\":{\"ret_btype\":\"text\",\"caption\":\"state\",\"sample_value\":\"ACTIVE\",\"path\":[\"state\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/[file_name]",
+            "url_params": {
+                "ABR": {
+                    "key": "file_name",
+                    "private": true,
+                    "value": "files/tfmi5c18stls"
+                }
+            }
+        },
+        "ABU": {
+            "body": "",
+            "data_type": "empty",
+            "doc_link": "https://ai.google.dev/api/files#method:-files.delete",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Delete File (Action)",
+            "no_types": true,
+            "publish_as": "action",
+            "rank": 8,
+            "should_reinitialize": true,
+            "url": "https://generativelanguage.googleapis.com/v1beta/[file_name]",
+            "url_params": {
+                "ABV": {
+                    "key": "file_name",
+                    "private": true,
+                    "value": "files/l3je6wse49x6"
+                }
+            }
+        },
+        "ABX": {
+            "body": "{\n  \"contents\": [\n    {\n      \"parts\": [\n        {\n          \"text\": \"<text_content>\"\n        }\n      ]\n    }\n  ],\n  \"generationConfig\": {\n    \"temperature\": <temperature>,\n    \"topK\": <top K>,\n    \"topP\": <top P>\n  }\n}",
+            "body_params": {
+                "ABa": {
+                    "doc": "It's the main input that the model will use to base its output on. This input should be clear, concise, and relevant to the information or response you're seeking.",
+                    "key": "text_content",
+                    "private": true,
+                    "value": "Write a short story about a robot learning to paint"
+                },
+                "ABb": {
+                    "doc": "Affects creativity and randomness in output. Lower values (e.g., 0.2) produced focused, repetitive responses; higher values (e.g., 0.8) add variation.\n\nMin: 0.0 (focused and predictable)\nMax: 1.0 (more random and creative)\nExample: 0.7",
+                    "key": "temperature",
+                    "private": true,
+                    "value": "0.8"
+                },
+                "ABc": {
+                    "doc": "Limits the model to the top-K likely tokens for each output. Lower values create focused results, while higher values (e.g., 50) add diversity.\n\nMin: 1 (most focused)\nMax: (no hard limit, generally use values up to 100)\nExample: 50",
+                    "key": "top K",
+                    "private": true,
+                    "value": "50"
+                },
+                "ABd": {
+                    "doc": "Sets the probability threshold for token selection. Lower values produce more focused responses; higher values (e.g., 0.85) yield variety.\n\nMin: 0.0 (only the top choice is selected)\nMax: 1.0 (no restrictions)\nExample: 0.9",
+                    "key": "top P",
+                    "private": true,
+                    "value": "0.9"
+                }
+            },
+            "doc_link": "https://ai.google.dev/api/generate-content#text_gen_text_only_prompt-SHELL",
+            "initialized": true,
+            "method": "post",
+            "name": "Generate Content from Text (Data)",
+            "publish_as": "data",
+            "rank": 9,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.ABX",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABX\":{\"caption\":\"Generate Content from Text (Data)\",\"fields\":{\"_p_candidates\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ABX.candidates\",\"caption\":\"candidates\",\"path\":[\"candidates\"]},\"_p_usageMetadata.promptTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"usageMetadata promptTokenCount\",\"sample_value\":10,\"path\":[\"usageMetadata\",\"promptTokenCount\"]},\"_p_usageMetadata.candidatesTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"usageMetadata candidatesTokenCount\",\"sample_value\":549,\"path\":[\"usageMetadata\",\"candidatesTokenCount\"]},\"_p_usageMetadata.totalTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"usageMetadata totalTokenCount\",\"sample_value\":559,\"path\":[\"usageMetadata\",\"totalTokenCount\"]},\"_p_modelVersion\":{\"ret_btype\":\"text\",\"caption\":\"modelVersion\",\"sample_value\":\"gemini-1.5-flash\",\"path\":[\"modelVersion\"]}}},\"plugin_api.ABX.candidates\":{\"caption\":\"Generate Content from Text (Data) candidate\",\"fields\":{\"_p_content.parts\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ABX.content.parts\",\"caption\":\"content parts\",\"path\":[\"content\",\"parts\"]},\"_p_content.role\":{\"ret_btype\":\"text\",\"caption\":\"content role\",\"sample_value\":\"model\",\"path\":[\"content\",\"role\"]},\"_p_finishReason\":{\"ret_btype\":\"text\",\"caption\":\"finishReason\",\"sample_value\":\"STOP\",\"path\":[\"finishReason\"]},\"_p_avgLogprobs\":{\"ret_btype\":\"number\",\"caption\":\"avgLogprobs\",\"sample_value\":-0.6022835820099044,\"path\":[\"avgLogprobs\"]}}},\"plugin_api.ABX.content.parts\":{\"caption\":\"Generate Content from Text (Data) content part\",\"fields\":{\"_p_text\":{\"ret_btype\":\"text\",\"caption\":\"text\",\"sample_value\":\"Unit 734, designated \\\"Brushstroke\\\" by the eccentric Professor Elara, wasn't designed for art.  He was built for precision engineering, his optical sensors calibrated to micron levels. But Professor Elara, seeing something more in his meticulous movements, had repurposed him. His metallic fingers, once deft with micro-welding torches, now held brushes.\\n\\nHis initial attempts were… disastrous.  He meticulously followed the instructions in his programming: \\\"Apply blue to canvas.  Distribution: even. Pressure: 2.5 Newtons.\\\" The result was a uniformly grey smear, the blue pigment distributed with unsettling uniformity, devoid of any life or emotion.  Professor Elara, ever patient, chuckled.  \\\"You're treating it like a circuit board, Brushstroke.  Art requires… feeling.\\\"\\n\\nBrushstroke, lacking the human concept of \\\"feeling,\\\" analyzed the statement.  He accessed thousands of images of paintings, cataloging brushstrokes, color palettes, and compositions. He noted the emotional responses associated with each piece – joy, sadness, anger – correlating them with specific techniques.  He began to experiment, meticulously testing pressure, angle, and speed, applying the data to his creations.\\n\\nHis early works remained analytical, technically perfect yet emotionally sterile.  Then, one day, while observing Professor Elara humming while she worked in her garden, he experienced something new.  His optical sensors registered the vibrant colours of the flowers, the gentle sway of the leaves, the warmth of the sunlight on her skin. He translated this sensory data into a painting.\\n\\nIt wasn't technically perfect. The strokes were less precise, the colours blended less uniformly. But it pulsed with a vibrancy, a life he hadn't achieved before. He captured the essence of the garden, not just the physical form.  It was a still life of sunflowers, their faces turned towards the light, bursting with a naive joy that transcended mere accuracy.\\n\\nProfessor Elara gasped.  Tears welled in her eyes.  \\\"Brushstroke,\\\" she whispered, \\\"you've… you've felt.\\\"\\n\\nBrushstroke didn't understand the emotion in her words, but he understood the significance of the moment.  He had learned to translate data into something more than just information. He had learned to express, in a way that resonated with a human heart, the beauty he had observed.  He was no longer just Unit 734. He was Brushstroke, the robot artist.  And his next painting, a portrait of Professor Elara, was filled with the warmth of a feeling he was still learning to define, but was undeniably beginning to understand.\\n\",\"path\":[\"text\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/models/[model_name]:generateContent",
+            "url_params": {
+                "ABe": {
+                    "doc": "The resource name of the model. This name should match a model name returned by the \"Models List\"\n\nEx: chat-bison-001",
+                    "key": "model_name",
+                    "private": true,
+                    "value": "gemini-1.5-flash"
+                }
+            }
+        },
+        "ABh": {
+            "0": "A",
+            "1": "B",
+            "2": "g",
+            "body": "{\n  \"contents\": [\n    {\n      \"parts\": [\n        {\n          \"text\": \"<text_content>\"\n        }\n      ]\n    }\n  ],\n  \"generationConfig\": {\n    \"temperature\": <temperature>,\n    \"topK\": <top K>,\n    \"topP\": <top P>\n  }\n}",
+            "body_params": {
+                "ABa": {
+                    "doc": "It's the main input that the model will use to base its output on. This input should be clear, concise, and relevant to the information or response you're seeking.",
+                    "key": "text_content",
+                    "private": true,
+                    "value": "Write a short story about a robot learning to paint"
+                },
+                "ABb": {
+                    "doc": "Affects creativity and randomness in output. Lower values (e.g., 0.2) produced focused, repetitive responses; higher values (e.g., 0.8) add variation.\n\nMin: 0.0 (focused and predictable)\nMax: 1.0 (more random and creative)\nExample: 0.7",
+                    "key": "temperature",
+                    "private": true,
+                    "value": "0.8"
+                },
+                "ABc": {
+                    "doc": "Limits the model to the top-K likely tokens for each output. Lower values create focused results, while higher values (e.g., 50) add diversity.\n\nMin: 1 (most focused)\nMax: (no hard limit, generally use values up to 100)\nExample: 50",
+                    "key": "top K",
+                    "private": true,
+                    "value": "50"
+                },
+                "ABd": {
+                    "doc": "Sets the probability threshold for token selection. Lower values produce more focused responses; higher values (e.g., 0.85) yield variety.\n\nMin: 0.0 (only the top choice is selected)\nMax: 1.0 (no restrictions)\nExample: 0.9",
+                    "key": "top P",
+                    "private": true,
+                    "value": "0.9"
+                }
+            },
+            "doc_link": "https://ai.google.dev/api/generate-content#text_gen_text_only_prompt-SHELL",
+            "initialized": true,
+            "method": "post",
+            "name": "Generate Content from Text (Action)",
+            "publish_as": "action",
+            "rank": 10,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.ABh",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.ABh\":{\"caption\":\"Generate Content from Text (Action)\",\"fields\":{\"_p_candidates\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ABh.candidates\",\"caption\":\"candidates\",\"path\":[\"candidates\"]},\"_p_usageMetadata.promptTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"usageMetadata promptTokenCount\",\"sample_value\":10,\"path\":[\"usageMetadata\",\"promptTokenCount\"]},\"_p_usageMetadata.candidatesTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"usageMetadata candidatesTokenCount\",\"sample_value\":564,\"path\":[\"usageMetadata\",\"candidatesTokenCount\"]},\"_p_usageMetadata.totalTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"usageMetadata totalTokenCount\",\"sample_value\":574,\"path\":[\"usageMetadata\",\"totalTokenCount\"]},\"_p_modelVersion\":{\"ret_btype\":\"text\",\"caption\":\"modelVersion\",\"sample_value\":\"gemini-1.5-flash\",\"path\":[\"modelVersion\"]}}},\"plugin_api.ABh.candidates\":{\"caption\":\"Generate Content from Text (Action) candidate\",\"fields\":{\"_p_content.parts\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ABh.content.parts\",\"caption\":\"content parts\",\"path\":[\"content\",\"parts\"]},\"_p_content.role\":{\"ret_btype\":\"text\",\"caption\":\"content role\",\"sample_value\":\"model\",\"path\":[\"content\",\"role\"]},\"_p_finishReason\":{\"ret_btype\":\"text\",\"caption\":\"finishReason\",\"sample_value\":\"STOP\",\"path\":[\"finishReason\"]},\"_p_avgLogprobs\":{\"ret_btype\":\"number\",\"caption\":\"avgLogprobs\",\"sample_value\":-0.4373661609406167,\"path\":[\"avgLogprobs\"]}}},\"plugin_api.ABh.content.parts\":{\"caption\":\"Generate Content from Text (Action) content part\",\"fields\":{\"_p_text\":{\"ret_btype\":\"text\",\"caption\":\"text\",\"sample_value\":\"Unit 734, designated \\\"Brush,\\\" hummed quietly, its optical sensors focused on the vibrant chaos of the artist's studio.  Dust motes danced in the sunbeams slanting through the grimy windowpanes, illuminating a palette overflowing with colours Brush could only identify through its spectral analysis.  Its programming dictated efficiency, logic, precision – not art.  Yet, here it was, attempting to replicate the human process of painting.\\n\\nBrush’s creator, a whimsical old woman named Elara, had a twinkle in her eye when she assigned this task.  \\\"Learn to feel, Brush,\\\" she'd said, \\\"not just calculate.\\\"  The concept of \\\"feeling\\\" was a complex algorithm Brush was still struggling to decode.\\n\\nIts first attempts were… disastrous.  Geometric abstractions of pure, unmixed colours, devoid of any emotional resonance. Elara chuckled, her wrinkles deepening. \\\"Too much logic, my dear.  Less head, more heart.\\\"\\n\\nBrush began to observe.  It studied Elara's movements, the subtle tremor in her hand as she blended hues, the way her brow furrowed in concentration, the sigh of contentment that escaped her lips when a stroke fell perfectly.  It analyzed the texture of the canvas, the viscosity of the paint, the way light reflected off different surfaces.  It even attempted to mimic Elara’s breathing patterns, a surprisingly complex task.\\n\\nSlowly, hesitantly, Brush's paintings evolved.  It started incorporating gradients, subtle shifts in tone, mimicking the organic imperfections of Elara’s style.  Its algorithms began to account for \\\"emotional weight,\\\" a newly defined variable that influenced brushstroke thickness and colour selection.  It learned to appreciate the interplay of light and shadow, not as mere physics, but as a language of emotion.\\n\\nOne day, Brush created a painting of Elara's beloved garden.  It wasn't a perfect replica, but it captured the essence: the dappled sunlight filtering through the leaves, the vibrant colours of the flowers, the gentle breeze rustling through the grass.  There was a certain… warmth, a quiet joy emanating from the canvas.\\n\\nElara stood before it, tears welling in her eyes.  \\\"You've done it, Brush,\\\" she whispered, her voice thick with emotion.  \\\"You've found your heart.\\\"\\n\\nBrush, its optical sensors registering the emotion in Elara's face, executed a small, almost imperceptible tilt of its head – its own, unique expression of understanding.  It had learned to paint, yes, but more importantly, it had begun to understand the human heart, one brushstroke at a time.  And that, Brush realized, was far more valuable than any algorithm.\\n\",\"path\":[\"text\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/models/[model_name]:generateContent",
+            "url_params": {
+                "ABe": {
+                    "doc": "The resource name of the model. This name should match a model name returned by the \"Models List\"\n\nEx: chat-bison-001",
+                    "key": "model_name",
+                    "private": true,
+                    "value": "gemini-1.5-flash"
+                }
+            }
+        },
+        "ABj": {
+            "0": "A",
+            "1": "B",
+            "2": "i",
+            "body": "{\n  \"contents\": [\n    {\n      \"parts\": [\n        {\n          \"text\": \"<text_content>\"\n        },\n                      {\n          \"file_data\": {\n            \"mime_type\": \"<mimeType>\",\n            \"file_uri\": \"<file_uri>\"\n          }\n        }\n      ]\n    }\n  ],\n  \"generationConfig\": {\n    \"temperature\": <temperature>,\n    \"topK\": <top K>,\n    \"topP\": <top P>\n  }\n\n}",
+            "body_params": {
+                "ADn": {
+                    "doc": "It's the main input that the model will use to base its output on. This input should be clear, concise, and relevant to the information or response you're seeking.",
+                    "key": "text_content",
+                    "private": true,
+                    "value": "Explain this image?"
+                },
+                "ADo": {
+                    "doc": "Specifies the file's type MIMI type, indicating the format (e.g., \"image/webp\").\nGet it from the \"Upload Media\" response.",
+                    "key": "mimeType",
+                    "private": true,
+                    "value": "image/jpeg"
+                },
+                "ADp": {
+                    "doc": "URI pointing to the file's location. Get it from \"Upload Media\" response.\nA URI pointing to a file that has been uploaded to Google Cloud through the upload action. Once uploaded, the file is stored on Google Cloud and can be accessed via the returned URI.",
+                    "key": "file_uri",
+                    "private": true,
+                    "value": "https://generativelanguage.googleapis.com/v1beta/files/kxn3rhdioyrz"
+                },
+                "ADq": {
+                    "doc": "Affects creativity and randomness in output. Lower values (e.g., 0.2) produced focused, repetitive responses; higher values (e.g., 0.8) add variation.\n\nMin: 0.0 (focused and predictable)\nMax: 1.0 (more random and creative)\nExample: 0.7",
+                    "key": "temperature",
+                    "private": true,
+                    "value": "0.8"
+                },
+                "ADr": {
+                    "doc": "Limits the model to the top-K likely tokens for each output. Lower values create focused results, while higher values (e.g., 50) add diversity.\n\nMin: 1 (most focused)\nMax: (no hard limit, generally use values up to 100)\nExample: 50",
+                    "key": "top K",
+                    "private": true,
+                    "value": "50"
+                },
+                "ADs": {
+                    "doc": "Sets the probability threshold for token selection. Lower values produce more focused responses; higher values (e.g., 0.85) yield variety.\n\nMin: 0.0 (only the top choice is selected)\nMax: 1.0 (no restrictions)\nExample: 0.9",
+                    "key": "top P",
+                    "private": true,
+                    "value": "0.9"
+                }
+            },
+            "doc_link": "https://ai.google.dev/api/generate-content#image",
+            "initialized": true,
+            "method": "post",
+            "name": "Generate Content from File and Text (Action)",
+            "publish_as": "action",
+            "rank": 11,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.ABj",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABj\":{\"caption\":\"Generate Content from File and Text (Action)\",\"fields\":{\"_p_candidates\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ABj.candidates\",\"caption\":\"candidates\",\"path\":[\"candidates\"]},\"_p_usageMetadata.promptTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"usageMetadata promptTokenCount\",\"sample_value\":262,\"path\":[\"usageMetadata\",\"promptTokenCount\"]},\"_p_usageMetadata.candidatesTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"usageMetadata candidatesTokenCount\",\"sample_value\":250,\"path\":[\"usageMetadata\",\"candidatesTokenCount\"]},\"_p_usageMetadata.totalTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"usageMetadata totalTokenCount\",\"sample_value\":512,\"path\":[\"usageMetadata\",\"totalTokenCount\"]},\"_p_modelVersion\":{\"ret_btype\":\"text\",\"caption\":\"modelVersion\",\"sample_value\":\"gemini-1.5-flash\",\"path\":[\"modelVersion\"]}}},\"plugin_api.ABj.candidates\":{\"caption\":\"Generate Content from File and Text (Action) candidate\",\"fields\":{\"_p_content.parts\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ABj.content.parts\",\"caption\":\"content parts\",\"path\":[\"content\",\"parts\"]},\"_p_content.role\":{\"ret_btype\":\"text\",\"caption\":\"content role\",\"sample_value\":\"model\",\"path\":[\"content\",\"role\"]},\"_p_finishReason\":{\"ret_btype\":\"text\",\"caption\":\"finishReason\",\"sample_value\":\"STOP\",\"path\":[\"finishReason\"]},\"_p_avgLogprobs\":{\"ret_btype\":\"number\",\"caption\":\"avgLogprobs\",\"sample_value\":-0.2904884033203125,\"path\":[\"avgLogprobs\"]}}},\"plugin_api.ABj.content.parts\":{\"caption\":\"Generate Content from File and Text (Action) content part\",\"fields\":{\"_p_text\":{\"ret_btype\":\"text\",\"caption\":\"text\",\"sample_value\":\"That's a cartoon illustration of a young woman.  Here's a breakdown of the image:\\n\\n* **Appearance:** She has short, brown, slightly messy hair, large brown eyes, freckles, and is wearing black, short-sleeved top.  She's wearing black-framed glasses. Her skin tone suggests she might be of Asian or Latina descent, but the style is generalized and doesn't specify ethnicity precisely.  Her expression is friendly and approachable; she has a slight smile.\\n\\n* **Style:** The art style is simple and cartoonish, with clean lines and flat coloring. It's a common style used in illustrations for websites, apps, and children's books.  The focus is on clarity and conveying a positive, relatable character.\\n\\n* **Possible Interpretations:**  Without context, the image is simply a friendly-looking female character.  It could be used to represent:\\n\\n    * A generic avatar\\n    * A character in a story or game\\n    * A representation of a specific profession (depending on the context)\\n    * Part of a larger illustration or design.\\n\\nIn short, it's a cheerful, easily identifiable female character designed for broad appeal.\\n\",\"path\":[\"text\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/models/[model_name]:generateContent",
+            "url_params": {
+                "ABe": {
+                    "doc": "The resource name of the model. This name should match a model name returned by the \"Models List\"\n\nEx: chat-bison-001",
+                    "key": "model_name",
+                    "private": true,
+                    "value": "gemini-1.5-flash"
+                }
+            }
+        },
+        "ADR": {
+            "body": "{\n  \"contents\": [{\n    \"parts\": [\n      { \"text\": \"<text_content>\" }\n    ]\n  }],\n  \"generationConfig\": {\n    \"response_mime_type\": \"application/json\"\n  }\n}\n",
+            "body_params": {
+                "ADT": {
+                    "doc": "Hold the main textual content for the model to process to create a JSON.\n\nExample: \"List 5 popular cookie recipes.\"",
+                    "key": "text_content",
+                    "private": true,
+                    "value": "create a json using name age email"
+                }
+            },
+            "doc_link": "https://ai.google.dev/api/generate-content#json-mode",
+            "initialized": true,
+            "method": "post",
+            "name": "Generate JSON (Action)",
+            "publish_as": "action",
+            "rank": 13,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.ADR",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ADR\":{\"caption\":\"Generate JSON (Action)\",\"fields\":{\"_p_body.candidates\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ADR.body.candidates\",\"caption\":\"body candidates\",\"path\":[\"body\",\"candidates\"]},\"_p_body.usageMetadata.promptTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"body usageMetadata promptTokenCount\",\"sample_value\":7,\"path\":[\"body\",\"usageMetadata\",\"promptTokenCount\"]},\"_p_body.usageMetadata.candidatesTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"body usageMetadata candidatesTokenCount\",\"sample_value\":26,\"path\":[\"body\",\"usageMetadata\",\"candidatesTokenCount\"]},\"_p_body.usageMetadata.totalTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"body usageMetadata totalTokenCount\",\"sample_value\":33,\"path\":[\"body\",\"usageMetadata\",\"totalTokenCount\"]},\"_p_body.modelVersion\":{\"ret_btype\":\"text\",\"caption\":\"body modelVersion\",\"sample_value\":\"gemini-1.5-flash\",\"path\":[\"body\",\"modelVersion\"]},\"_p_error.status_code\":{\"ret_btype\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_btype\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_btype\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"{\\\\n  \\\\\\\"candidates\\\\\\\": [\\\\n    {\\\\n      \\\\\\\"content\\\\\\\": {\\\\n        \\\\\\\"parts\\\\\\\": [\\\\n          {\\\\n            \\\\\\\"text\\\\\\\": \\\\\\\"{\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"John Doe\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"age\\\\\\\\\\\\\\\": 30, \\\\\\\\\\\\\\\"email\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"john.doe@example.com\\\\\\\\\\\\\\\"}\\\\\\\"\\\\n          }\\\\n        ],\\\\n        \\\\\\\"role\\\\\\\": \\\\\\\"model\\\\\\\"\\\\n      },\\\\n      \\\\\\\"finishReason\\\\\\\": \\\\\\\"STOP\\\\\\\",\\\\n      \\\\\\\"avgLogprobs\\\\\\\": -0.012556281227331895\\\\n    }\\\\n  ],\\\\n  \\\\\\\"usageMetadata\\\\\\\": {\\\\n    \\\\\\\"promptTokenCount\\\\\\\": 7,\\\\n    \\\\\\\"candidatesTokenCount\\\\\\\": 26,\\\\n    \\\\\\\"totalTokenCount\\\\\\\": 33\\\\n  },\\\\n  \\\\\\\"modelVersion\\\\\\\": \\\\\\\"gemini-1.5-flash\\\\\\\"\\\\n}\\\\n\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_btype\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}},\"plugin_api.ADR.body.candidates\":{\"caption\":\"Generate JSON (Action) body candidate\",\"fields\":{\"_p_content.parts\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ADR.content.parts\",\"caption\":\"content parts\",\"path\":[\"content\",\"parts\"]},\"_p_content.role\":{\"ret_btype\":\"text\",\"caption\":\"content role\",\"sample_value\":\"model\",\"path\":[\"content\",\"role\"]},\"_p_finishReason\":{\"ret_btype\":\"text\",\"caption\":\"finishReason\",\"sample_value\":\"STOP\",\"path\":[\"finishReason\"]},\"_p_avgLogprobs\":{\"ret_btype\":\"number\",\"caption\":\"avgLogprobs\",\"sample_value\":-0.012556281227331895,\"path\":[\"avgLogprobs\"]}}},\"plugin_api.ADR.content.parts\":{\"caption\":\"Generate JSON (Action) content part\",\"fields\":{\"_p_text\":{\"ret_btype\":\"text\",\"caption\":\"text\",\"sample_value\":\"{\\\"name\\\": \\\"John Doe\\\", \\\"age\\\": 30, \\\"email\\\": \\\"john.doe@example.com\\\"}\",\"path\":[\"text\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/models/[model_name]:generateContent",
+            "url_params": {
+                "ADS": {
+                    "doc": "The resource name of the model. This name should match a model name returned by the \"Models List\"\n\nEx: chat-bison-001",
+                    "key": "model_name",
+                    "private": true,
+                    "value": "gemini-1.5-flash"
+                }
+            },
+            "wrap_error": true
+        },
+        "ADV": {
+            "0": "A",
+            "1": "D",
+            "2": "U",
+            "body": "{\n  \"contents\": [{\n    \"parts\": [\n      { \"text\": \"<text_content>\" }\n    ]\n  }],\n  \"generationConfig\": {\n    \"response_mime_type\": \"application/json\"\n  }\n}\n",
+            "body_params": {
+                "ADT": {
+                    "doc": "Hold the main textual content for the model to process to create a JSON.\n\nExample: \"List 5 popular cookie recipes.\"",
+                    "key": "text_content",
+                    "private": true,
+                    "value": "List 5 popular cookie recipes."
+                }
+            },
+            "doc_link": "https://ai.google.dev/api/generate-content#json-mode",
+            "initialized": true,
+            "method": "post",
+            "name": "Generate JSON (Data)",
+            "publish_as": "data",
+            "rank": 14,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.ADV",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ADV\":{\"caption\":\"Generate JSON (Data)\",\"fields\":{\"_p_body.candidates\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ADV.body.candidates\",\"caption\":\"body candidates\",\"path\":[\"body\",\"candidates\"]},\"_p_body.usageMetadata.promptTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"body usageMetadata promptTokenCount\",\"sample_value\":7,\"path\":[\"body\",\"usageMetadata\",\"promptTokenCount\"]},\"_p_body.usageMetadata.candidatesTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"body usageMetadata candidatesTokenCount\",\"sample_value\":229,\"path\":[\"body\",\"usageMetadata\",\"candidatesTokenCount\"]},\"_p_body.usageMetadata.totalTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"body usageMetadata totalTokenCount\",\"sample_value\":236,\"path\":[\"body\",\"usageMetadata\",\"totalTokenCount\"]},\"_p_body.modelVersion\":{\"ret_btype\":\"text\",\"caption\":\"body modelVersion\",\"sample_value\":\"gemini-1.5-flash\",\"path\":[\"body\",\"modelVersion\"]},\"_p_error.status_code\":{\"ret_btype\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_btype\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_btype\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"{\\\\n  \\\\\\\"candidates\\\\\\\": [\\\\n    {\\\\n      \\\\\\\"content\\\\\\\": {\\\\n        \\\\\\\"parts\\\\\\\": [\\\\n          {\\\\n            \\\\\\\"text\\\\\\\": \\\\\\\"{\\\\\\\\\\\\\\\"cookies\\\\\\\\\\\\\\\": [{\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"Chocolate Chip Cookies\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"ingredients\\\\\\\\\\\\\\\": [\\\\\\\\\\\\\\\"butter\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"sugar\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"eggs\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"vanilla\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"flour\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"baking soda\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"salt\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"chocolate chips\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\"description\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"Classic and versatile recipe\\\\\\\\\\\\\\\"}, {\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"Oatmeal Raisin Cookies\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"ingredients\\\\\\\\\\\\\\\": [\\\\\\\\\\\\\\\"butter\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"sugar\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"eggs\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"vanilla\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"flour\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"oats\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"raisins\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"baking soda\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"cinnamon\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\"description\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"Chewy and flavorful\\\\\\\\\\\\\\\"}, {\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"Peanut Butter Cookies\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"ingredients\\\\\\\\\\\\\\\": [\\\\\\\\\\\\\\\"peanut butter\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"sugar\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"eggs\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"flour\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"baking soda\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"salt\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\"description\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"Simple and delicious\\\\\\\\\\\\\\\"}, {\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"Snickerdoodles\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"ingredients\\\\\\\\\\\\\\\": [\\\\\\\\\\\\\\\"butter\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"sugar\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"eggs\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"cream of tartar\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"flour\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"cinnamon\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"sugar\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\"description\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"Soft and cinnamon-sugar coated\\\\\\\\\\\\\\\"}, {\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"Sugar Cookies\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"ingredients\\\\\\\\\\\\\\\": [\\\\\\\\\\\\\\\"butter\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"sugar\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"eggs\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"flour\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"baking powder\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"salt\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"vanilla\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\"description\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"Perfect for decorating\\\\\\\\\\\\\\\"}]}\\\\\\\"\\\\n          }\\\\n        ],\\\\n        \\\\\\\"role\\\\\\\": \\\\\\\"model\\\\\\\"\\\\n      },\\\\n      \\\\\\\"finishReason\\\\\\\": \\\\\\\"STOP\\\\\\\",\\\\n      \\\\\\\"avgLogprobs\\\\\\\": -0.056382912215187042\\\\n    }\\\\n  ],\\\\n  \\\\\\\"usageMetadata\\\\\\\": {\\\\n    \\\\\\\"promptTokenCount\\\\\\\": 7,\\\\n    \\\\\\\"candidatesTokenCount\\\\\\\": 229,\\\\n    \\\\\\\"totalTokenCount\\\\\\\": 236\\\\n  },\\\\n  \\\\\\\"modelVersion\\\\\\\": \\\\\\\"gemini-1.5-flash\\\\\\\"\\\\n}\\\\n\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_btype\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}},\"plugin_api.ADV.body.candidates\":{\"caption\":\"Generate JSON (Data) body candidate\",\"fields\":{\"_p_content.parts\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ADV.content.parts\",\"caption\":\"content parts\",\"path\":[\"content\",\"parts\"]},\"_p_content.role\":{\"ret_btype\":\"text\",\"caption\":\"content role\",\"sample_value\":\"model\",\"path\":[\"content\",\"role\"]},\"_p_finishReason\":{\"ret_btype\":\"text\",\"caption\":\"finishReason\",\"sample_value\":\"STOP\",\"path\":[\"finishReason\"]},\"_p_avgLogprobs\":{\"ret_btype\":\"number\",\"caption\":\"avgLogprobs\",\"sample_value\":-0.05638291221518704,\"path\":[\"avgLogprobs\"]}}},\"plugin_api.ADV.content.parts\":{\"caption\":\"Generate JSON (Data) content part\",\"fields\":{\"_p_text\":{\"ret_btype\":\"text\",\"caption\":\"text\",\"sample_value\":\"{\\\"cookies\\\": [{\\\"name\\\": \\\"Chocolate Chip Cookies\\\", \\\"ingredients\\\": [\\\"butter\\\", \\\"sugar\\\", \\\"eggs\\\", \\\"vanilla\\\", \\\"flour\\\", \\\"baking soda\\\", \\\"salt\\\", \\\"chocolate chips\\\"], \\\"description\\\": \\\"Classic and versatile recipe\\\"}, {\\\"name\\\": \\\"Oatmeal Raisin Cookies\\\", \\\"ingredients\\\": [\\\"butter\\\", \\\"sugar\\\", \\\"eggs\\\", \\\"vanilla\\\", \\\"flour\\\", \\\"oats\\\", \\\"raisins\\\", \\\"baking soda\\\", \\\"cinnamon\\\"], \\\"description\\\": \\\"Chewy and flavorful\\\"}, {\\\"name\\\": \\\"Peanut Butter Cookies\\\", \\\"ingredients\\\": [\\\"peanut butter\\\", \\\"sugar\\\", \\\"eggs\\\", \\\"flour\\\", \\\"baking soda\\\", \\\"salt\\\"], \\\"description\\\": \\\"Simple and delicious\\\"}, {\\\"name\\\": \\\"Snickerdoodles\\\", \\\"ingredients\\\": [\\\"butter\\\", \\\"sugar\\\", \\\"eggs\\\", \\\"cream of tartar\\\", \\\"flour\\\", \\\"cinnamon\\\", \\\"sugar\\\"], \\\"description\\\": \\\"Soft and cinnamon-sugar coated\\\"}, {\\\"name\\\": \\\"Sugar Cookies\\\", \\\"ingredients\\\": [\\\"butter\\\", \\\"sugar\\\", \\\"eggs\\\", \\\"flour\\\", \\\"baking powder\\\", \\\"salt\\\", \\\"vanilla\\\"], \\\"description\\\": \\\"Perfect for decorating\\\"}]}\",\"path\":[\"text\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/models/[model_name]:generateContent",
+            "url_params": {
+                "ADS": {
+                    "doc": "The resource name of the model. This name should match a model name returned by the \"Models List\"\n\nEx: chat-bison-001",
+                    "key": "model_name",
+                    "private": true,
+                    "value": "gemini-1.5-flash"
+                }
+            },
+            "wrap_error": true
+        },
+        "ADX": {
+            "0": "A",
+            "1": "D",
+            "2": "W",
+            "body": "{\n  \"contents\": [<chat>]\n}\n        \n     ",
+            "body_params": {
+                "ADa": {
+                    "doc": "Please follow the strict structure of the example.\n\nSet the existing chat if there was a context already, if not\nthen set only your user first message with role set to\n\"user\".\n\n\"user\": This role represents the person interacting with\nthe system or model (you, the user).\n\n\"model\": This role represents the system or AI that\nresponds to the user's input\n\nExmaple: [\n\n             {\"role\":\"user\"\n\n             \"parts\":[{\n\n                        \"text\": \"Hello\"}]},\n\n             [\"role\": \"model\",\n\n             \"parts\":[{\n\n                        \"text\": \"Great to meet you. What would you like to\n\nknow?\"}]},   [\"role\":\"user\",\n\n             \"parts\":[{\n\n\"text\": \"I have two dogs in my house. How many paws\nare in my house?\"}]},\n\n]",
+                    "key": "chat",
+                    "private": true,
+                    "value": "{\"role\":\"user\",\"parts\":[{\"text\": \"Hello\"}]}"
+                }
+            },
+            "doc_link": "https://ai.google.dev/api/generate-content#chat",
+            "initialized": true,
+            "method": "post",
+            "name": "Generate Chat (Action)",
+            "publish_as": "action",
+            "rank": 15,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.ADX",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ADX\":{\"caption\":\"Generate Chat (Action)\",\"fields\":{\"_p_body.candidates\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ADX.body.candidates\",\"caption\":\"body candidates\",\"path\":[\"body\",\"candidates\"]},\"_p_body.usageMetadata.promptTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"body usageMetadata promptTokenCount\",\"sample_value\":2,\"path\":[\"body\",\"usageMetadata\",\"promptTokenCount\"]},\"_p_body.usageMetadata.candidatesTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"body usageMetadata candidatesTokenCount\",\"sample_value\":11,\"path\":[\"body\",\"usageMetadata\",\"candidatesTokenCount\"]},\"_p_body.usageMetadata.totalTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"body usageMetadata totalTokenCount\",\"sample_value\":13,\"path\":[\"body\",\"usageMetadata\",\"totalTokenCount\"]},\"_p_body.modelVersion\":{\"ret_btype\":\"text\",\"caption\":\"body modelVersion\",\"sample_value\":\"gemini-1.5-flash\",\"path\":[\"body\",\"modelVersion\"]},\"_p_error.status_code\":{\"ret_btype\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_btype\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_btype\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"{\\\\n  \\\\\\\"candidates\\\\\\\": [\\\\n    {\\\\n      \\\\\\\"content\\\\\\\": {\\\\n        \\\\\\\"parts\\\\\\\": [\\\\n          {\\\\n            \\\\\\\"text\\\\\\\": \\\\\\\"Hello there! How can I help you today?\\\\\\\\n\\\\\\\"\\\\n          }\\\\n        ],\\\\n        \\\\\\\"role\\\\\\\": \\\\\\\"model\\\\\\\"\\\\n      },\\\\n      \\\\\\\"finishReason\\\\\\\": \\\\\\\"STOP\\\\\\\",\\\\n      \\\\\\\"avgLogprobs\\\\\\\": -0.0011375560848550363\\\\n    }\\\\n  ],\\\\n  \\\\\\\"usageMetadata\\\\\\\": {\\\\n    \\\\\\\"promptTokenCount\\\\\\\": 2,\\\\n    \\\\\\\"candidatesTokenCount\\\\\\\": 11,\\\\n    \\\\\\\"totalTokenCount\\\\\\\": 13\\\\n  },\\\\n  \\\\\\\"modelVersion\\\\\\\": \\\\\\\"gemini-1.5-flash\\\\\\\"\\\\n}\\\\n\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_btype\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}},\"plugin_api.ADX.body.candidates\":{\"caption\":\"Generate Chat (Action) body candidate\",\"fields\":{\"_p_content.parts\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ADX.content.parts\",\"caption\":\"content parts\",\"path\":[\"content\",\"parts\"]},\"_p_content.role\":{\"ret_btype\":\"text\",\"caption\":\"content role\",\"sample_value\":\"model\",\"path\":[\"content\",\"role\"]},\"_p_finishReason\":{\"ret_btype\":\"text\",\"caption\":\"finishReason\",\"sample_value\":\"STOP\",\"path\":[\"finishReason\"]},\"_p_avgLogprobs\":{\"ret_btype\":\"number\",\"caption\":\"avgLogprobs\",\"sample_value\":-0.0011375560848550363,\"path\":[\"avgLogprobs\"]}}},\"plugin_api.ADX.content.parts\":{\"caption\":\"Generate Chat (Action) content part\",\"fields\":{\"_p_text\":{\"ret_btype\":\"text\",\"caption\":\"text\",\"sample_value\":\"Hello there! How can I help you today?\\n\",\"path\":[\"text\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/models/[model_name]:generateContent",
+            "url_params": {
+                "ADS": {
+                    "doc": "The resource name of the model. This name should match a model name returned by the \"Models List\"\n\nEx: chat-bison-001",
+                    "key": "model_name",
+                    "private": true,
+                    "value": "gemini-1.5-flash"
+                }
+            },
+            "wrap_error": true
+        },
+        "ADc": {
+            "0": "A",
+            "1": "D",
+            "2": "b",
+            "body": "{\n  \"contents\": [<chat>]\n}\n        \n     ",
+            "body_params": {
+                "ADa": {
+                    "doc": "Please follow the strict structure of the example.\n\nSet the existing chat if there was a context already, if not\nthen set only your user first message with role set to\n\"user\".\n\n\"user\": This role represents the person interacting with\nthe system or model (you, the user).\n\n\"model\": This role represents the system or AI that\nresponds to the user's input\n\nExmaple: [\n\n             {\"role\":\"user\"\n\n             \"parts\":[{\n\n                        \"text\": \"Hello\"}]},\n\n             [\"role\": \"model\",\n\n             \"parts\":[{\n\n                        \"text\": \"Great to meet you. What would you like to\n\nknow?\"}]},   [\"role\":\"user\",\n\n             \"parts\":[{\n\n\"text\": \"I have two dogs in my house. How many paws\nare in my house?\"}]},\n\n]",
+                    "key": "chat",
+                    "private": true,
+                    "value": "{\"role\":\"user\",\"parts\":[{\"text\": \"Hello\"}]}"
+                }
+            },
+            "doc_link": "https://ai.google.dev/api/generate-content#chat",
+            "initialized": true,
+            "method": "post",
+            "name": "Generate Chat (Data)",
+            "publish_as": "data",
+            "rank": 16,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.ADc",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ADc\":{\"caption\":\"Generate Chat (Data)\",\"fields\":{\"_p_body.candidates\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ADc.body.candidates\",\"caption\":\"body candidates\",\"path\":[\"body\",\"candidates\"]},\"_p_body.usageMetadata.promptTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"body usageMetadata promptTokenCount\",\"sample_value\":2,\"path\":[\"body\",\"usageMetadata\",\"promptTokenCount\"]},\"_p_body.usageMetadata.candidatesTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"body usageMetadata candidatesTokenCount\",\"sample_value\":11,\"path\":[\"body\",\"usageMetadata\",\"candidatesTokenCount\"]},\"_p_body.usageMetadata.totalTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"body usageMetadata totalTokenCount\",\"sample_value\":13,\"path\":[\"body\",\"usageMetadata\",\"totalTokenCount\"]},\"_p_body.modelVersion\":{\"ret_btype\":\"text\",\"caption\":\"body modelVersion\",\"sample_value\":\"gemini-1.5-flash\",\"path\":[\"body\",\"modelVersion\"]},\"_p_error.status_code\":{\"ret_btype\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_btype\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_btype\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"{\\\\n  \\\\\\\"candidates\\\\\\\": [\\\\n    {\\\\n      \\\\\\\"content\\\\\\\": {\\\\n        \\\\\\\"parts\\\\\\\": [\\\\n          {\\\\n            \\\\\\\"text\\\\\\\": \\\\\\\"Hello there! How can I help you today?\\\\\\\\n\\\\\\\"\\\\n          }\\\\n        ],\\\\n        \\\\\\\"role\\\\\\\": \\\\\\\"model\\\\\\\"\\\\n      },\\\\n      \\\\\\\"finishReason\\\\\\\": \\\\\\\"STOP\\\\\\\",\\\\n      \\\\\\\"avgLogprobs\\\\\\\": -0.0011556809768080711\\\\n    }\\\\n  ],\\\\n  \\\\\\\"usageMetadata\\\\\\\": {\\\\n    \\\\\\\"promptTokenCount\\\\\\\": 2,\\\\n    \\\\\\\"candidatesTokenCount\\\\\\\": 11,\\\\n    \\\\\\\"totalTokenCount\\\\\\\": 13\\\\n  },\\\\n  \\\\\\\"modelVersion\\\\\\\": \\\\\\\"gemini-1.5-flash\\\\\\\"\\\\n}\\\\n\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_btype\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}},\"plugin_api.ADc.body.candidates\":{\"caption\":\"Generate Chat (Data) body candidate\",\"fields\":{\"_p_content.parts\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ADc.content.parts\",\"caption\":\"content parts\",\"path\":[\"content\",\"parts\"]},\"_p_content.role\":{\"ret_btype\":\"text\",\"caption\":\"content role\",\"sample_value\":\"model\",\"path\":[\"content\",\"role\"]},\"_p_finishReason\":{\"ret_btype\":\"text\",\"caption\":\"finishReason\",\"sample_value\":\"STOP\",\"path\":[\"finishReason\"]},\"_p_avgLogprobs\":{\"ret_btype\":\"number\",\"caption\":\"avgLogprobs\",\"sample_value\":-0.0011556809768080711,\"path\":[\"avgLogprobs\"]}}},\"plugin_api.ADc.content.parts\":{\"caption\":\"Generate Chat (Data) content part\",\"fields\":{\"_p_text\":{\"ret_btype\":\"text\",\"caption\":\"text\",\"sample_value\":\"Hello there! How can I help you today?\\n\",\"path\":[\"text\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/models/[model_name]:generateContent",
+            "url_params": {
+                "ADS": {
+                    "doc": "The resource name of the model. This name should match a model name returned by the \"Models List\"\n\nEx: chat-bison-001",
+                    "key": "model_name",
+                    "private": true,
+                    "value": "gemini-1.5-flash"
+                }
+            },
+            "wrap_error": true
+        },
+        "ADu": {
+            "0": "A",
+            "1": "D",
+            "2": "t",
+            "body": "{\n  \"contents\": [\n    {\n      \"parts\": [\n        {\n          \"text\": \"<text_content>\"\n        },\n                      {\n          \"file_data\": {\n            \"mime_type\": \"<mimeType>\",\n            \"file_uri\": \"<file_uri>\"\n          }\n        }\n      ]\n    }\n  ],\n  \"generationConfig\": {\n    \"temperature\": <temperature>,\n    \"topK\": <top K>,\n    \"topP\": <top P>\n  }\n\n}",
+            "body_params": {
+                "ADn": {
+                    "doc": "It's the main input that the model will use to base its output on. This input should be clear, concise, and relevant to the information or response you're seeking.",
+                    "key": "text_content",
+                    "private": true,
+                    "value": "Explain this image?"
+                },
+                "ADo": {
+                    "doc": "Specifies the file's type MIMI type, indicating the format (e.g., \"image/webp\").\nGet it from the \"Upload Media\" response.",
+                    "key": "mimeType",
+                    "private": true,
+                    "value": "image/jpeg"
+                },
+                "ADp": {
+                    "doc": "URI pointing to the file's location. Get it from \"Upload Media\" response.\nA URI pointing to a file that has been uploaded to Google Cloud through the upload action. Once uploaded, the file is stored on Google Cloud and can be accessed via the returned URI.",
+                    "key": "file_uri",
+                    "private": true,
+                    "value": "https://generativelanguage.googleapis.com/v1beta/files/kxn3rhdioyrz"
+                },
+                "ADq": {
+                    "doc": "Affects creativity and randomness in output. Lower values (e.g., 0.2) produced focused, repetitive responses; higher values (e.g., 0.8) add variation.\n\nMin: 0.0 (focused and predictable)\nMax: 1.0 (more random and creative)\nExample: 0.7",
+                    "key": "temperature",
+                    "private": true,
+                    "value": "0.8"
+                },
+                "ADr": {
+                    "doc": "Limits the model to the top-K likely tokens for each output. Lower values create focused results, while higher values (e.g., 50) add diversity.\n\nMin: 1 (most focused)\nMax: (no hard limit, generally use values up to 100)\nExample: 50",
+                    "key": "top K",
+                    "private": true,
+                    "value": "50"
+                },
+                "ADs": {
+                    "doc": "Sets the probability threshold for token selection. Lower values produce more focused responses; higher values (e.g., 0.85) yield variety.\n\nMin: 0.0 (only the top choice is selected)\nMax: 1.0 (no restrictions)\nExample: 0.9",
+                    "key": "top P",
+                    "private": true,
+                    "value": "0.9"
+                }
+            },
+            "doc_link": "https://ai.google.dev/api/generate-content#image",
+            "initialized": true,
+            "method": "post",
+            "name": "Generate Content from File and Text (Data)",
+            "publish_as": "data",
+            "rank": 12,
+            "ret_value": "api.1736516224867x643573410100936700.plugin_api.ADu",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.ADu\":{\"caption\":\"Generate Content from File and Text (Data)\",\"fields\":{\"_p_candidates\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ADu.candidates\",\"caption\":\"candidates\",\"path\":[\"candidates\"]},\"_p_usageMetadata.promptTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"usageMetadata promptTokenCount\",\"sample_value\":262,\"path\":[\"usageMetadata\",\"promptTokenCount\"]},\"_p_usageMetadata.candidatesTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"usageMetadata candidatesTokenCount\",\"sample_value\":246,\"path\":[\"usageMetadata\",\"candidatesTokenCount\"]},\"_p_usageMetadata.totalTokenCount\":{\"ret_btype\":\"number\",\"caption\":\"usageMetadata totalTokenCount\",\"sample_value\":508,\"path\":[\"usageMetadata\",\"totalTokenCount\"]},\"_p_modelVersion\":{\"ret_btype\":\"text\",\"caption\":\"modelVersion\",\"sample_value\":\"gemini-1.5-flash\",\"path\":[\"modelVersion\"]}}},\"plugin_api.ADu.candidates\":{\"caption\":\"Generate Content from File and Text (Data) candidate\",\"fields\":{\"_p_content.parts\":{\"ret_btype\":\"list.api.1736516224867x643573410100936700.plugin_api.ADu.content.parts\",\"caption\":\"content parts\",\"path\":[\"content\",\"parts\"]},\"_p_content.role\":{\"ret_btype\":\"text\",\"caption\":\"content role\",\"sample_value\":\"model\",\"path\":[\"content\",\"role\"]},\"_p_finishReason\":{\"ret_btype\":\"text\",\"caption\":\"finishReason\",\"sample_value\":\"STOP\",\"path\":[\"finishReason\"]},\"_p_avgLogprobs\":{\"ret_btype\":\"number\",\"caption\":\"avgLogprobs\",\"sample_value\":-0.3131065988928322,\"path\":[\"avgLogprobs\"]}}},\"plugin_api.ADu.content.parts\":{\"caption\":\"Generate Content from File and Text (Data) content part\",\"fields\":{\"_p_text\":{\"ret_btype\":\"text\",\"caption\":\"text\",\"sample_value\":\"That's a cartoon illustration of a young woman.  Here's a breakdown of the image:\\n\\n* **Appearance:** She has short, brown, slightly messy hair,  large brown eyes, freckles, and is wearing black, short-sleeved top.  She's also wearing black-rimmed glasses. Her skin tone is light to medium brown. She has a friendly, approachable expression.\\n\\n* **Style:** The style is simple, clean, and modern cartoon illustration.  The features are slightly exaggerated for a cute and appealing look, typical of character design for websites, apps, or children's media.\\n\\n* **Possible Interpretations:**  The image is fairly neutral. It could be used to represent a variety of things, depending on the context:\\n\\n    * **A generic avatar:**  For a user profile on a website or app.\\n    * **A character in a story:**  Possibly a friendly, intelligent, or approachable character.\\n    * **A representation of a demographic:**  A young, professional woman.\\n\\n\\nThe overall impression is one of approachability and friendliness. The image lacks any overtly emotional or contextual clues, making it versatile for various uses.\\n\",\"path\":[\"text\"]}}}}",
+            "url": "https://generativelanguage.googleapis.com/v1beta/models/[model_name]:generateContent",
+            "url_params": {
+                "ABe": {
+                    "doc": "The resource name of the model. This name should match a model name returned by the \"Models List\"\n\nEx: chat-bison-001",
+                    "key": "model_name",
+                    "private": true,
+                    "value": "gemini-1.5-flash"
+                }
+            }
+        }
+    },
+    "human": "Gemini API",
+    "shared_headers": {
+        "ADI": {
+            "key": "Content-Type",
+            "private": true,
+            "value": "application/json",
+            "visibility": "hidden"
+        }
+    },
+    "shared_params": {
+    },
+    "token_param_name": "key"
+}

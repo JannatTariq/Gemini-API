@@ -1,0 +1,76 @@
+{
+    "category": "plugins",
+    "display": "Gemini API - Upload Media",
+    "fields": {
+        "ACv": {
+            "caption": "file",
+            "editor": "DynamicValue",
+            "name": "file",
+            "rank": 0,
+            "value": "file"
+        }
+    },
+    "return_value": {
+        "ACw": {
+            "caption": "name",
+            "name": "name",
+            "rank": 0,
+            "value": "text"
+        },
+        "ACx": {
+            "caption": "mimeType",
+            "name": "mimeType",
+            "rank": 1,
+            "value": "text"
+        },
+        "ACy": {
+            "caption": "sizeBytes",
+            "name": "sizeBytes",
+            "rank": 2,
+            "value": "number"
+        },
+        "ACz": {
+            "caption": "createTime",
+            "name": "createTime",
+            "rank": 3,
+            "value": "date"
+        },
+        "ADA": {
+            "caption": "updateTime",
+            "name": "updateTime",
+            "rank": 4,
+            "value": "date"
+        },
+        "ADB": {
+            "caption": "expirationTime",
+            "name": "expirationTime",
+            "rank": 5,
+            "value": "date"
+        },
+        "ADC": {
+            "caption": "sha256Hash",
+            "name": "sha256Hash",
+            "rank": 6,
+            "value": "text"
+        },
+        "ADD": {
+            "caption": "uri",
+            "name": "uri",
+            "rank": 7,
+            "value": "text"
+        },
+        "ADE": {
+            "caption": "state",
+            "name": "state",
+            "rank": 8,
+            "value": "text"
+        },
+        "ADF": {
+            "caption": "error",
+            "name": "error",
+            "rank": 9,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}
